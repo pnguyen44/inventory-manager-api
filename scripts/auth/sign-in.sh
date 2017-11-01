@@ -1,4 +1,6 @@
 #!/bin/bash
+EMAIL='pnn'
+PASSWORD='pnn'
 
 API="${API_ORIGIN:-http://localhost:4741}"
 URL_PATH="/sign-in"

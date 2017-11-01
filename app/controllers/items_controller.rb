@@ -5,8 +5,8 @@ class ItemsController < ProtectedController
 
   # GET /items
   def index
-    # @items = Item.all
-    @items = current_user.items.all.order('id ASC')
+    # @items = Item.all.order('name ASC')
+    @items = current_user.items.all.order('name ASC')
     render json: @items
   end
 
@@ -52,6 +52,6 @@ class ItemsController < ProtectedController
 
   # Only allow a trusted parameter "white list" through.
   def item_params
-    params.require(:item).permit(:name, :description, :currentQuanity, :alertQuanity, :quanityPurchased, :inShoppingList, :category_id)
+    params.require(:item).permit(:name, :description, :currentQuantity, :alertQuantity, :quantityPurchased, :inOrderList, :category_id)
   end
 end

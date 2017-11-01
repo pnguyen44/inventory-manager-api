@@ -34,9 +34,9 @@ ActiveRecord::Schema.define(version: 20171101181655) do
   create_table "items", force: :cascade do |t|
     t.string "name"
     t.string "description"
-    t.integer "currentQuanity"
-    t.integer "alertQuanity"
-    t.integer "quanityPurchased"
+    t.integer "currentQuantity"
+    t.integer "alertQuantity"
+    t.integer "quantityPurchased"
     t.boolean "inOrderList"
     t.bigint "category_id", null: false
     t.datetime "created_at", null: false

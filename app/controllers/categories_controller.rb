@@ -3,6 +3,7 @@ class CategoriesController < ProtectedController
 
   # GET /categories
   def index
+    # @categories = Category.all.order('name ASC')
     @categories = current_user.categories.all.order('name ASC')
 
     render json: @categories

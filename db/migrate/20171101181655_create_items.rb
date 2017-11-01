@@ -6,7 +6,7 @@ class CreateItems < ActiveRecord::Migration[5.1]
       t.integer :currentQuanity
       t.integer :alertQuanity
       t.integer :quanityPurchased
-      t.boolean :inShoppingList
+      t.boolean :inOrderList
       t.references :category, index: true, foreign_key: true, null: false
 
       t.timestamps null: false

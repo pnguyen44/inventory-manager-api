@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 20171101181655) do
     t.integer "currentQuanity"
     t.integer "alertQuanity"
     t.integer "quanityPurchased"
-    t.boolean "inShoppingList"
+    t.boolean "inOrderList"
     t.bigint "category_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -3,10 +3,10 @@ class CreateItems < ActiveRecord::Migration[5.1]
     create_table :items do |t|
       t.string :name
       t.string :description
-      t.integer :currentQuantity
-      t.integer :alertQuantity
-      t.integer :quantityPurchased
-      t.boolean :inOrderList
+      t.integer :current_quantity
+      t.integer :alert_quantity
+      t.integer :quantity_purchased
+      t.boolean :in_order_list
       t.references :category, index: true, foreign_key: true, null: false
 
       t.timestamps null: false

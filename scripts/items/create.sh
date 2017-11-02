@@ -1,8 +1,8 @@
 #!/bin/bash
 
-TOKEN='BAhJIiU5MWRmODdmMTRiZjcyOTYwYmM5ZWYzY2NlMDYyNzViMgY6BkVG--79091ecdf1226c47531f0dc806705805fd56302c'
+TOKEN='BAhJIiU5NmFlMGQyMmFlYjU0ZDkyYzkxNjMyMDgxZWIxMmY0YQY6BkVG--2f1915b5dca26c22b3d82b9ed1d3eea65a2acc63'
 CATEGORY_ID=2
-NAME='testss'
+NAME='a1'
 DESCRIPTION='number 222'
 CURRENT_QUANTITY='1'
 ALERT_QUANTITY='2'
@@ -22,10 +22,10 @@ curl "${API}${URL_PATH}" \
       "category_id": "'"${CATEGORY_ID}"'",
       "name": "'"${NAME}"'",
       "description": "'"${DESCRIPTION}"'",
-      "currentQuantity": "'"${CURRENT_QUANTITY}"'",
-      "alertQuantity": "'"${ALERT_QUANTITY}"'",
-      "quantityPurchased": "'"${QUANTITY_PURCHASED}"'",
-      "inOrderList": "'"${IN_ORDER_LIST}"'"
+      "current_quantity": "'"${CURRENT_QUANTITY}"'",
+      "alert_quantity": "'"${ALERT_QUANTITY}"'",
+      "quantity_purchased": "'"${QUANTITY_PURCHASED}"'",
+      "in_order_list": "'"${IN_ORDER_LIST}"'"
     }
   }'
 

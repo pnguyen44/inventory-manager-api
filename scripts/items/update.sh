@@ -22,10 +22,10 @@ curl "${API}${URL_PATH}" \
       "category_id": "'"${CATEGORY_ID}"'",
       "name": "'"${NAME}"'",
       "description": "'"${DESCRIPTION}"'",
-      "currentQuantity": "'"${CURRENT_QUANTITY}"'",
-      "alertQuantity": "'"${ALERT_QUANTITY}"'",
-      "quantityPurchased": "'"${QUANTITY_PURCHASED}"'",
-      "inOrderList": "'"${IN_ORDER_LIST}"'"
+      "current_quantity": "'"${CURRENT_QUANTITY}"'",
+      "alert_quantity": "'"${ALERT_QUANTITY}"'",
+      "quantity_purchased": "'"${QUANTITY_PURCHASED}"'",
+      "in_order_list": "'"${IN_ORDER_LIST}"'"
     }
   }'
 

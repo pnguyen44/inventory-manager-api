@@ -2,11 +2,12 @@
 
 TOKEN='BAhJIiU5MWRmODdmMTRiZjcyOTYwYmM5ZWYzY2NlMDYyNzViMgY6BkVG--79091ecdf1226c47531f0dc806705805fd56302c'
 CATEGORY_ID=2
-NAME='test'
+NAME='testss'
+DESCRIPTION='number 222'
 CURRENT_QUANTITY='1'
 ALERT_QUANTITY='2'
 QUANTITY_PURCHASED='0'
-IN_ORDER_LIST=false
+IN_ORDER_LIST='false'
 
 API="${API_ORIGIN:-http://localhost:4741}"
 # API="${API_ORIGIN:-https://the-inventory-manager.herokuapp.com}"

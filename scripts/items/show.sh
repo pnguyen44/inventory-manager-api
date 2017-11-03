@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOKEN='BAhJIiU5MWRmODdmMTRiZjcyOTYwYmM5ZWYzY2NlMDYyNzViMgY6BkVG--79091ecdf1226c47531f0dc806705805fd56302c'
-ID=3
+TOKEN='BAhJIiViMDNkNDY2NWEyMWFjYzk1NTY4YWJjZDNkMjQ4NjkzNAY6BkVG--989f2f859e32c8545754378182fb75f490a1ad25'
+ID=12
 
 API="${API_ORIGIN:-http://localhost:4741}"
 # API="${API_ORIGIN:-https://the-inventory-manager.herokuapp.com}"

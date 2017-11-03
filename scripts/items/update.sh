@@ -1,8 +1,7 @@
 #!/bin/bash
-TOKEN='BAhJIiU5MWRmODdmMTRiZjcyOTYwYmM5ZWYzY2NlMDYyNzViMgY6BkVG--79091ecdf1226c47531f0dc806705805fd56302c'
-ID=3
-CATEGORY_ID=3
-NAME='ok'
+TOKEN='BAhJIiViMDNkNDY2NWEyMWFjYzk1NTY4YWJjZDNkMjQ4NjkzNAY6BkVG--989f2f859e32c8545754378182fb75f490a1ad25'
+ID=12
+NAME='0dfsdok'
 DESCRIPTION='number 222'
 CURRENT_QUANTITY='1'
 ALERT_QUANTITY='2'
@@ -19,7 +18,6 @@ curl "${API}${URL_PATH}" \
   --header "Authorization: Token token=$TOKEN" \
   --data '{
     "item": {
-      "category_id": "'"${CATEGORY_ID}"'",
       "name": "'"${NAME}"'",
       "description": "'"${DESCRIPTION}"'",
       "current_quantity": "'"${CURRENT_QUANTITY}"'",

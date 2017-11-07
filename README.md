@@ -25,11 +25,11 @@ The first thing I did was create a user story and wireframe to map out my invent
 | GET    | `/categories/:id`       | `categories#show`    |
 | PATCH  | `/categories/:id`       | `categories#update`  |
 | DELETE | `/categories/:id`       | `categories#destroy` |
-| GET    | `/items`                | `item#index`         |
-| POST   | `/items`                | `item#create`        |
-| GET    | `/items/:id`            | `item#show`          |
-| PATCH  | `/items/:id`            | `item#update`        |
-| DELETE | `/items/:id`            | `item#destroy`       |
+| GET    | `/items`                | `items#index`        |
+| POST   | `/items`                | `items#create`       |
+| GET    | `/items/:id`            | `items#show`         |
+| PATCH  | `/items/:id`            | `items#update`       |
+| DELETE | `/items/:id`            | `items#destroy`      |
 
 ## Technologies Used
 - Ruby on Rails

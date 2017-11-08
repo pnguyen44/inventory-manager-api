@@ -1,9 +1,17 @@
 # Inventory Manager
 The Inventory Manager app was created using HTML, Ruby on Rails, CSS/SASS, Ember, Javascript, Handlebars and Bootstrap. This app allows users to create an inventory of items, track if the items are running low, put them in order list, and add them back to inventory list.
 
-## Link to Frontend Repo: https://github.com/pnguyen44/inventory-manager
+## Frontend Repo And Deployed Site Links:
+Link to Frontend Repo: https://github.com/pnguyen44/inventory-manager
 
-## Link to Frontend Deployed Site: https://pnguyen44.github.io/inventory-manager/
+Link to Frontend Deployed Site: https://pnguyen44.github.io/inventory-manager/
+
+## Backend Repo and Depoyed Site Links:
+Link to Backend Repo: https://github.com/pnguyen44/inventory-manager-api
+
+Link to Backend Deployed Site: https://the-inventory-manager.herokuapp.com/
+
+
 
 ## ERD
 Link to ERD: https://i.imgur.com/6Q5SljZ.png

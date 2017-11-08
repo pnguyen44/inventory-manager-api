@@ -18,18 +18,9 @@
     # POST /items
     def create
       @item = current_user.items.build(item_params)
-      puts  "@category is --- #{@category}"
-      puts  "category is id --- #{@item.category_id}"
-      if @category
-        if @item.save
-          puts '-----Saved'
-          render json: @item, status: :created
-        else
-          # puts '-----errr'
-          render json: @item.errors, status: :unprocessable_entity
-        end
+      if @category && @item.save
+        render json: @item, status: :created
       else
-        puts '-----error'
         render json: @item.errors, status: :unprocessable_entity
       end
     end

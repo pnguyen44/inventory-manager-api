@@ -1,6 +1,6 @@
 #!/bin/bash
-EMAIL='pnn'
-PASSWORD='pnn'
+EMAIL='k'
+PASSWORD='k'
 
 API="${API_ORIGIN:-http://localhost:4741}"
 URL_PATH="/sign-up"

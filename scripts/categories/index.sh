@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOKEN='BAhJIiVlYWNkYWM5ZWM3MzMwYTA3MzlhYzQyN2I2MTM0ZDE0ZQY6BkVG--efc1948121112b7895b7316b74dd2aca19b67798'
-USER_ID=1
+TOKEN='BAhJIiVkN2JlN2ZkZGQ3NDQ2ZDljYzI1YTg1YjVlOTY5ZmQwOQY6BkVG--9da3cbe8a79ad4823354a056c09fcf8ec107617c'
+USER_ID=3
 API="${API_ORIGIN:-http://localhost:4741}"
 # API="${API_ORIGIN:-https://the-inventory-manager.herokuapp.com}"
 URL_PATH="/categories"

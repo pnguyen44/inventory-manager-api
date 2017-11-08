@@ -47,6 +47,10 @@ The first thing I did was create a user story and wireframe to map out my invent
 - Bootstrap
 - HTML
 - CSS/ SASS
+- PostgreSQL
+- Heroku
+- Git/Github
+
 
 ## Resources Used
 - MDN
